@@ -10,6 +10,8 @@ interface SalesOrderPostCreatePluginInterface
     /**
      * @param \Generated\Shared\Transfer\OrderTransfer $orderTransfer
      * @param \Generated\Shared\Transfer\SaveOrderTransfer $saveOrderTransfer
+     *
+     * @return void
      */
     public function execute(OrderTransfer $orderTransfer, SaveOrderTransfer $saveOrderTransfer): void;
 }
