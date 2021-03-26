@@ -13,6 +13,7 @@ interface OrderAddressExpanderPluginInterface
      * @api
      *
      * @param \Generated\Shared\Transfer\AddressTransfer $addressTransfer
+     *
      * @return \Generated\Shared\Transfer\AddressTransfer
      */
     public function expand(AddressTransfer $addressTransfer): AddressTransfer;
